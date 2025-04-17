@@ -3,7 +3,7 @@
 ::: {.hero-banner}
 
 ::: {.hero-banner-carousel}
-{{< include content/news/news.qmd >}}
+{{< include carousel/news.qmd >}}
 :::
 
 ::: {.hero-banner-text}
