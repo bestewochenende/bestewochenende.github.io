@@ -1,0 +1,39 @@
+project:
+  type: website
+  output-dir: "a3eced31e4ca8c5ae5b58a0948b44dc319c9ae7ac/de"
+  execute-dir: project
+  resources:
+    - "www/"
+    - "CNAME"
+
+website:
+  title: "Yanjik&Aleni JG*inA"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+        icon: house
+      - href: info/about.qmd
+        text: Über
+    right:
+      - href: ../de
+        text: 🇩🇪
+      - href: ../en
+        text: 🇬🇧
+  page-footer:
+    right: "Im Quarto gebaut."
+    left: "© 2025, Patrick Altmeyer & Daniëlle Kotter"
+
+lang: de
+
+format:
+  html:
+    include-in-header: 
+      - text: |
+          <script>
+          window.addEventListener('load', () => {history.replaceState(null, null, "/login/");});
+          </script>
+    theme:
+      - theme-light.scss
+      - brand
+    toc: true
