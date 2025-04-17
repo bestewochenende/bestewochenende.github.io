@@ -1,69 +1,108 @@
+* {
+font-family: 'Poppins';
+}
+
 body {
-    background-color: #4f4f4f; /* Dark grey background from Darkly theme */
-    color: #ffffff; /* Light text */
-    font-family: 'Arial', sans-serif;
+    user-select: none;
+    overflow-y: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: hsl(218deg 50% 91%);
     height: 100vh;
-    margin: 0;
-    flex-direction: column; /* Arrange elements in a column */
 }
 
-h1 {
-    color: #78B3CE; /* Green color from Darkly theme */
-    margin-bottom: 20px; /* Space between title and form */
+.login-container {
+    background: hsl(213deg 85% 97%);
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    box-shadow: 0 0 2em hsl(231deg 62% 94%);
+    gap: 2em;
 }
 
-.form-container {
-    background-color: #777777; /* Slightly lighter dark background for form from Darkly theme */
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 15px #F96E2A; /* Adjusted shadow to match theme */
-    width: 100%;
-    max-width: 400px; /* Set a max-width for better alignment */
-    box-sizing: border-box; /* Ensure padding is included in overall width */
+.login-container .logo {
+    margin-top: -5em;
+    width: 400px;
 }
 
-input[type="text"], input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #78B3CE; /* Green border from Darkly theme */
-    border-radius: 5px;
-    background-color: #777777; /* Dark input background from Darkly theme */
-    color: #ffffff; /* Light text in input */
-    box-sizing: border-box; /* Ensure padding is included in overall width */
+.login-container .username {
+    background: hsl(0deg 0% 100%);
+    box-shadow: 0 0 2em hsl(231deg 62% 94%);
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    border-radius: 20px;
+    color: hsl(0deg 0% 30%);
+    margin-top: -3em;
 }
 
-input::placeholder {
-    color: #ced4da; /* Light grey color for placeholder text from Darkly theme */
+.login-container .username input {
+    outline: none;
+    border: none;
+}
+
+.login-container .username input::placeholder {
+    color: hsl(0deg 0% 0%);
+    font-size: 0.9em;
+}
+
+.login-container .username ion-icon {
+    color: hsl(0deg 0% 30%);
+    margin-bottom: -0.2em;
+}
+
+.login-container .password {
+    background: hsl(0deg 0% 100%);
+    box-shadow: 0 0 2em hsl(231deg 62% 94%);
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    border-radius: 20px;
+    color: hsl(0deg 0% 30%);
+}
+
+.login-container .password input {
+    outline: none;
+    border: none;
+}
+
+.login-container .password input::placeholder {
+    color: hsl(0deg 0% 0%);
+    font-size: 0.9em;
+}
+
+.login-container .password ion-icon {
+    color: hsl(0deg 0% 30%);
+    margin-bottom: -0.2em;
+}
+
+.login-container .password .show-hide {
+    margin-right: -5em;
+}
+
+.login-container .login {
+    padding: 1em;
+    background: #78B3CE;
+    color: hsl(0 0 100%);
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+.login-container .login:hover {
+    background-color: #F96E2A;
 }
 
 button {
-    width: 100%;
-    padding: 10px;
-    background-color: #78B3CE; /* Green button background from Darkly theme */
-    color: #ffffff; /* Light text */
-    border: none;
-    border-radius: 5px;
     cursor: pointer;
-    font-weight: bold;
-}
-
-button:hover {
-    background-color: #F96E2A; /* Darker green on hover from Darkly theme */
 }
 
 #alert {
-    color: #ff0000; /* Red alert message */
+    color: #a21c1c; /* Red alert message */
     margin-top: 10px;
     align-self: center; /* Align to the start of the form */
-}
-
-/* Center the container, form, and alert */
-.container {
-    display: flex;
-    flex-direction: column; /* Arrange title, form, and alert in a column */
-    align-items: center;
 }

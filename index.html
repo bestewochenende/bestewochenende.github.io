@@ -1,19 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Login Portal</title>
+  <title>Login</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
 </head>
 <body>
-  <h1>Login Portal</h1>
-  <form id="login-form">
-    <input type="text" id="username" placeholder="Enter username">
-    <input type="password" id="password" placeholder="Enter password">
-    <button id="login-btn" type="button">Login</button>
-  </form>
-  <div id="alert" style="display: none;" data-id="alert">Incorrect username or password</div>
-
+  <div class="login-container">
+    <img src="cartoon_couple.png" alt="y&a" class="logo">
+    <div class="username">
+      <label for="username">Username</label>
+      <div class="sec-2">
+        <ion-icon name="mail-outline"></ion-icon>
+        <input type="username" name="username" placeholder="Enter username"/>
+      </div>
+    </div>
+    <div class="password">
+      <label for="password">Password</label>
+      <div class="sec-2">
+        <ion-icon name="lock-closed-outline"></ion-icon>
+        <input class="pas" type="password" name="password" placeholder="············"/>
+        <ion-icon class="show-hide" name="eye-outline"></ion-icon>
+      </div>
+    </div>
+    <button class="login">Login </button>
+    <div id="alert" style="display: none;" data-id="alert">Incorrect username or password</div>
+  </div>
   <script>
     const loginBtn = document.getElementById('login-btn');
     const usernameInput = document.getElementById('username');
