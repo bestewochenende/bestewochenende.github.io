@@ -1,7 +1,0 @@
----
-toc: false
----
-
-## Welcome!
-
-Please login with the username and password that you have been provided.
