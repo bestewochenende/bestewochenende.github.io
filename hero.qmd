@@ -1,0 +1,18 @@
+::: {.column-screen}
+
+::: {.hero-banner}
+
+::: {.hero-banner-carousel}
+{{< include content/news/news.qmd >}}
+:::
+
+::: {.hero-banner-text}
+# 10 years later ... 👫🏼
+
+We finally get to celebrate these alcoholics.
+
+:::
+
+::: 
+
+:::

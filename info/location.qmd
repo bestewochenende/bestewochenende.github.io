@@ -1,0 +1,57 @@
+## Location
+
+### Moulin de la Rochette 🇫🇷
+
+::: {.content-block}
+```{=html}
+<iframe
+  width="500"
+  height="500"
+  frameborder="0" style="border:0"
+  referrerpolicy="no-referrer-when-downgrade"
+  src="https://www.google.com/maps/embed/v1/place?q=Aulnay-la-Rivière,+France&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+  allowfullscreen>
+</iframe>
+```
+:::
+<!-- <div style="max-width:100%;list-style:none; transition: none;overflow:hidden;width:500px;height:500px;"><div id="embed-map-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Aulnay-la-Rivière,+France&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="googlecoder" rel="nofollow" href="https://www.bootstrapskins.com/themes" id="get-data-for-embed-map">premium bootstrap themes</a><style>#embed-map-canvas img{max-height:none;max-width:none!important;background:none!important;}</style></div> -->
+
+
+## How to get there
+
+### By Car 🚗
+The easiest option is to go by car from Düsseldorf. There is sufficient parking on the property.
+
+::: {.content-block}
+```{=html}
+<iframe
+  width="500"
+  height="500"
+  frameborder="0" style="border:0"
+  referrerpolicy="no-referrer-when-downgrade"
+  src="https://www.google.com/maps/embed/v1/directions?origin=Frida,+Bilker+Allee,+Düsseldorf-District+3,+Germany&destination=Aulnay-la-Rivière,+France&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+  allowfullscreen>
+</iframe>
+```
+:::
+
+<!-- <div style="max-width:100%;list-style:none; transition: none;overflow:hidden;width:400px;height:400px;"><div id="embed-map-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/directions?origin=Frida,+Bilker+Allee,+Düsseldorf-District+3,+Germany&destination=Aulnay-la-Rivière,+France&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="googlecoder" rel="nofollow" href="https://www.bootstrapskins.com/themes" id="get-data-for-embed-map">premium bootstrap themes</a><style>#embed-map-canvas img{max-height:none;max-width:none!important;background:none!important;}</style></div> -->
+
+### By Plane or Train ✈️ 🚄
+
+When taking a plane or train, the last part of the journey requires a lift or a rental car. Those traveling by car will pass both Paris Charles de Gaulle Airport (CDG) and Paris Orly Airport (ORY). Please coordinate a pick-up amongst each other.
+
+::: {.content-block}
+```{=html}
+<iframe
+  width="500"
+  height="500"
+  frameborder="0" style="border:0"
+  referrerpolicy="no-referrer-when-downgrade"
+  src="https://www.google.com/maps/embed/v1/search?q=airport+near+Paris,+France&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+  allowfullscreen>
+</iframe>
+```
+:::
+<!-- 
+<div style="max-width:100%;list-style:none; transition: none;overflow:hidden;width:400px;height:400px;"><div id="embed-map-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/search?q=airport+near+Paris,+France&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="googlecoder" rel="nofollow" href="https://www.bootstrapskins.com/themes" id="get-data-for-embed-map">premium bootstrap themes</a><style>#embed-map-canvas img{max-height:none;max-width:none!important;background:none!important;}</style></div> -->
