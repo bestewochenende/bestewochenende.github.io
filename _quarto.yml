@@ -1,6 +1,7 @@
 project:
   type: website
   execute-dir: project
+  output-dir: docs
   resources:
     - "CNAME"
 
@@ -13,7 +14,7 @@ website:
         icon: house
     right:
       - text: "Login"
-        href: https://daniellekotter.github.io/bestewochenende/login/
+        href: https://bestewochenende.github.io/bestewochenende/login/
   page-footer:
     right: "Built in Quarto."
     left: "© 2025, Patrick Altmeyer & Daniëlle Kotter"
