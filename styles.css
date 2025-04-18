@@ -12,6 +12,7 @@ body {
     height: 100vh;
 }
 
+
 .login-container {
     background: hsl(213deg 85% 97%);
     padding: 2em;
@@ -24,7 +25,25 @@ body {
 
 .login-container .logo {
     margin-top: -5em;
-    width: 400px;
+    width: 350px;
+    margin: 0 auto;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    body {
+        height: auto; /* Allow body to grow */
+        padding: 2em; /* Add padding for smaller screens */
+    }
+
+    .login-container {
+        width: 90%; /* Make the container take up more space */
+        padding: 1.5em; /* Adjust padding */
+    }
+
+    .login-container .logo {
+        width: 400px;
+    }
 }
 
 .login-container .username {
