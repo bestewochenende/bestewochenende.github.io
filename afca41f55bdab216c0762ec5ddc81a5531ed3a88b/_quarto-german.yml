@@ -31,7 +31,7 @@ format:
     include-in-header: 
       - text: |
           <script>
-          window.addEventListener('load', () => {history.replaceState(null, null, "/login/");});
+          window.addEventListener('load', () => {history.replaceState(null, null, "/");});
           </script>
     theme:
       - theme-light.scss
