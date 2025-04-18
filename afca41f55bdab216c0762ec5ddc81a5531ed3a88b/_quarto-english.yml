@@ -3,8 +3,8 @@ project:
   output-dir: "a3eced31e4ca8c5ae5b58a0948b44dc319c9ae7ac/en"
   execute-dir: project
   resources:
-    - "www/"
-    - "CNAME"
+    - "/www/"
+    - "/CNAME"
 
 website:
   title: "Yanjik&Aleni JG*inA"
