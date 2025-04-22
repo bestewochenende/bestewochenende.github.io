@@ -29,22 +29,43 @@ body {
     margin: 0 auto;
 }
 
-/* Media query for smaller screens */
-@media (max-width: 768px) {
+/* Media query for mobile screens */
+@media (max-width: 900px) {
     body {
-        height: auto; /* Allow body to grow */
-        padding: 2em; /* Add padding for smaller screens */
+      padding: 1.5em;
     }
-
+  
     .login-container {
-        width: 90%; /* Make the container take up more space */
-        padding: 1.5em; /* Adjust padding */
+      width: 100%;
+      padding: 2em;
+      gap: 2.5em;
     }
-
+  
     .login-container .logo {
-        width: 400px;
+      width: 80%;
+      max-width: 300px;
     }
-}
+  
+    .login-container .username,
+    .login-container .password {
+      padding: 1.5em;
+      font-size: 1.1em;
+    }
+  
+    .login-container .username input,
+    .login-container .password input {
+      font-size: 1.1em;
+    }
+  
+    .login-container .login {
+      font-size: 1.2em;
+      padding: 1.2em;
+    }
+  
+    #alert {
+      font-size: 1em;
+    }
+  }
 
 .login-container .username {
     background: hsl(0deg 0% 100%);
