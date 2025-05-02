@@ -1,0 +1,20 @@
+[
+  {
+    "listing": "/program/index.html",
+    "items": [
+      "/program/days/thursday.html",
+      "/program/days/friday.html",
+      "/program/days/saturday.html",
+      "/program/days/sunday.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/program/days/thursday.html",
+      "/program/days/friday.html",
+      "/program/days/saturday.html",
+      "/program/days/sunday.html"
+    ]
+  }
+]

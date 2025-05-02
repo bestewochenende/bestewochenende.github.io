@@ -6,20 +6,20 @@ $body-bg: lighten($primary, 43%);
 $body-color: darken($primary, 43%);
 
 // Navbar
-$navbar-bg: lighten($primary, 45%);
+$navbar-bg:	#FFAE42;
 
 // Footer
 $footer-bg: lighten($primary, 45%);
 
 // Welcome
 .welcome h1 {
-      color: #4063D8;
-        font-size: 3.5rem;
+  color: $julia-blue;
+  font-size: 3.5rem;
 }
 
 .welcome h2 {
-      border-bottom: 0cm;
-        margin-top: 0%;
+  border-bottom: 0cm;
+  margin-top: 0%;
 }
 
 // Hero banner 
@@ -65,3 +65,21 @@ $footer-bg: lighten($primary, 45%);
     margin-bottom: 110px;
 }
 
+.content-block {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.navbar {
+  background-color: $navbar-bg;
+}
+
+.navbar-brand .navbar-title {
+  color: white;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+}

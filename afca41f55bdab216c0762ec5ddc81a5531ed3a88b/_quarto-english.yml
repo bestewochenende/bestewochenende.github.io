@@ -13,6 +13,8 @@ website:
       - href: index.qmd
         text: Home
         icon: house
+      - href: program/index.qmd
+        text: Program
       - href: info/about.qmd
         text: About
     right:

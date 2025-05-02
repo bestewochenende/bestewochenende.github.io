@@ -29,6 +29,12 @@ body {
     margin: 0 auto;
 }
 
+.img_program {
+    width: 600px;
+    display: block;
+    margin: auto;
+}
+
 /* Media query for smaller screens */
 @media (max-width: 900px) {
     body {
@@ -44,6 +50,11 @@ body {
 
     .login-container .logo {
         width: 280px;
+    }
+
+    .img_program {
+        width: 100%; /* Make the image responsive */
+        height: auto; /* Maintain aspect ratio */
     }
 }
 

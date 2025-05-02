@@ -1,5 +1,13 @@
-## Welcome to the place for all info about the beste Wochenende
-
-### 29th of May - 1st June 2025
+::: {.content-visible when-profile="english"}
+## Bachelor's weekend Yannick & Alena 29th of May - 1st June 2025
 
 See the [house](https://www.airbnb.nl/rooms/42055089?adults=16&children=0&infants=0&pets=0&wishlist_item_id=11004626680313&check_in=2025-05-29&check_out=2025-06-01&source_impression_id=p3_1744873891_P38x__zpPZajAUtm&previous_page_section_name=1000)
+
+:::
+
+::: {.content-visible when-profile="german"}
+## Junggesellenabschied wochenende Yannick & Alena 29 Mai - 1 Juni 2025
+
+Siehe das [Haus](https://www.airbnb.nl/rooms/42055089?adults=16&children=0&infants=0&pets=0&wishlist_item_id=11004626680313&check_in=2025-05-29&check_out=2025-06-01&source_impression_id=p3_1744873891_P38x__zpPZajAUtm&previous_page_section_name=1000)
+
+:::

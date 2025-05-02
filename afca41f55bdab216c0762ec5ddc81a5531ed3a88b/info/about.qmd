@@ -2,25 +2,31 @@
 title: "Important information"
 about:
     id: hero-heading
-    template: jolla
+    template: trestles
     image: ../www/house.jpg
     image-shape: round
     links:
       - icon: map
-        href: https://maps.app.goo.gl/MUTKV6cbNKfuf7uv7
+        href: https://maps.app.goo.gl/VgtWeV7pJmTjDf51A
       - icon: house
         href: https://www.airbnb.nl/rooms/42055089?adults=16&children=0&infants=0&pets=0&wishlist_item_id=11004626680313&check_in=2025-05-29&check_out=2025-06-01&source_impression_id=p3_1744873891_P38x__zpPZajAUtm&previous_page_section_name=1000
       - icon: calendar
         href: https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20250529T150000Z%2F20250601T090000Z&details=&location=Aulnay-la-Rivi%C3%A8re&text=Yanjik%26Aleni%20JG*inA
 ---
 
-:::{#hero-heading}
+::: {.content-visible when-profile="english"}{#hero-heading}
 
 **29th of May - 1st June 2025** <br>
 Check in: 17:00 <br>
 Check out: 12:00 <br>
 :::
 
+::: {.content-visible when-profile="german"}{#hero-heading}
+
+**29 Mai – 1 Juni 2025** <br>
+Check-in: 17:00 Uhr <br>
+Check-out: 12:00 Uhr <br>
+:::
 
 
 ::: {.content-block}

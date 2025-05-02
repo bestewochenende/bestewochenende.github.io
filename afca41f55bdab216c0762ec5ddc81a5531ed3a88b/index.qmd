@@ -1,7 +1,16 @@
 ---
 toc: false
 page-layout: custom
-css: index.css
+listing:
+  - id: landing-projects
+    contents: ./program/days/*.qmd
+    sort: "date asc"
+    type: grid
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    max-items: 4
+    feed: false
 ---
 
 ::: {.content-block}
@@ -14,8 +23,19 @@ css: index.css
 
 
 ::: {.content-block}
+::: {.listing-block}
 
-## Have you already filled out the google form?
+### [Program](program/index.qmd)
+
+::: {#landing-projects}
+:::
+
+:::
+:::
+
+::: {.content-block}
+
+## Hast du das Google-Formular schon ausgefüllt?
 ```{=html}
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeMkd65ocFaKC7XXedLuAnemGy8W7U_cUw1FulYyrH1R0Agig/viewform?embedded=true" width="100%" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 ```
