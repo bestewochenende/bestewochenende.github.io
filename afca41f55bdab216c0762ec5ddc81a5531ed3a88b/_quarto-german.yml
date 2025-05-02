@@ -13,7 +13,7 @@ website:
       - href: index.qmd
         text: Home
         icon: house
-      - href: program.qmd
+      - href: program/index.qmd
         text: Programma
       - href: info/about.qmd
         text: Über
