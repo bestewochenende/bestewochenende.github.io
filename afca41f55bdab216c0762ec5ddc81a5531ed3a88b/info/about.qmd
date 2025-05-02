@@ -2,7 +2,7 @@
 title: "Important information"
 about:
     id: hero-heading
-    template: trestles
+    template: jolla
     image: ../www/house.jpg
     image-shape: round
     links:
@@ -14,14 +14,14 @@ about:
         href: https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20250529T150000Z%2F20250601T090000Z&details=&location=Aulnay-la-Rivi%C3%A8re&text=Yanjik%26Aleni%20JG*inA
 ---
 
-::: {.content-visible when-profile="english"}{#hero-heading}
+:::{#hero-heading .content-visible when-profile="english"}
 
 **29th of May - 1st June 2025** <br>
 Check in: 17:00 <br>
 Check out: 12:00 <br>
 :::
 
-::: {.content-visible when-profile="german"}{#hero-heading}
+:::{#hero-heading .content-visible when-profile="german"}
 
 **29 Mai – 1 Juni 2025** <br>
 Check-in: 17:00 Uhr <br>

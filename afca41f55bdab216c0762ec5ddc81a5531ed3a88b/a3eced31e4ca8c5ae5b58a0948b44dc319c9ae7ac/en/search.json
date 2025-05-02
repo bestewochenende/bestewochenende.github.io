@@ -46,7 +46,7 @@
     "href": "info/about.html",
     "title": "Important information",
     "section": "",
-    "text": "::: {.content-visible when-profile=“english”}{#hero-heading}\n29th of May - 1st June 2025  Check in: 17:00  Check out: 12:00  :::\n::: {.content-visible when-profile=“german”}{#hero-heading}\n29 Mai – 1 Juni 2025  Check-in: 17:00 Uhr  Check-out: 12:00 Uhr  :::"
+    "text": "29th of May - 1st June 2025  Check in: 17:00  Check out: 12:00"
   },
   {
     "objectID": "info/about.html#packing-list",
