@@ -2,6 +2,28 @@
 title: "Program"
 ---
 
+::: {.content-visible when-profile="deutsch"}
+
+## Donnerstag---Espit Chupitos
+
+"SHOTS! SHOTS! SHOTS!"
+
+Wer den [Laden](https://www.espitchupitos.com/en/) in Barcelona kennt, hat jetzt Chlor Geruch in der Nase: einmal ganz tief einatmen---herrlich! Also, schmeißt euch in euer bestes Barcelona Partyoutfit und ab geht's. 
+
+## Freitag---Dancing Queens
+
+Der Klassiker: ABBA, 70s, Disco. Das sollte genug Inspiration für Outfits sein und endlich eine Gelegenheit Yannick in Schlaghose zu sehen---lieb's :).  
+
+## Samstag---Le Petit Coq
+
+Wir sind in Frankreich und da strotzen die Menschen ja bekanntlich von Arr- ehhh Eleganz. Da passen wir uns gerne mal einen Tag lang an, also zieht euch schick an, dann sieht man euch den Kater auch nicht so an. 
+
+## Sonntag---Abreise
+
+Jogginghose an, Sonnenbrille tief ins Gesicht und mit keinem mehr reden---es ist Abreisetag.
+
+:::
+
 ::: {.content-visible when-profile="english"}
 ## Thursday - Espit Chupitos
 

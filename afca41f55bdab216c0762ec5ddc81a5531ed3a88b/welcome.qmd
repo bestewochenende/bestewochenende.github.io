@@ -1,13 +1,15 @@
 ::: {.content-visible when-profile="english"}
 ## Bachelor's weekend Yannick & Alena 29th of May - 1st June 2025
 
-See the [house](https://www.airbnb.nl/rooms/42055089?adults=16&children=0&infants=0&pets=0&wishlist_item_id=11004626680313&check_in=2025-05-29&check_out=2025-06-01&source_impression_id=p3_1744873891_P38x__zpPZajAUtm&previous_page_section_name=1000)
+<iframe src="https://free.timeanddate.com/countdown/i9vplstp/n16/cf100/cm0/cu4/ct0/cs0/ca0/co0/cr0/ss0/cac000/cpc000/pct/tcfff/fn3/fs100/szw448/szh189/iso2025-05-29T00:00:00" allowtransparency="true" frameborder="0" width="448" height="189"></iframe>
 
 :::
 
 ::: {.content-visible when-profile="german"}
-## Junggesellenabschied wochenende Yannick & Alena 29 Mai - 1 Juni 2025
+## Yanjik&Aleni JG*inA
 
-Siehe das [Haus](https://www.airbnb.nl/rooms/42055089?adults=16&children=0&infants=0&pets=0&wishlist_item_id=11004626680313&check_in=2025-05-29&check_out=2025-06-01&source_impression_id=p3_1744873891_P38x__zpPZajAUtm&previous_page_section_name=1000)
+### Ab geht's ...
+
+<iframe src="https://free.timeanddate.com/countdown/i9vplstp/n16/cf100/cm0/cu4/ct0/cs0/ca0/co0/cr0/ss0/cac000/cpc000/pct/tcfff/fn3/fs100/szw448/szh189/iso2025-05-29T00:00:00" allowtransparency="true" frameborder="0" width="448" height="189"></iframe>
 
 :::
