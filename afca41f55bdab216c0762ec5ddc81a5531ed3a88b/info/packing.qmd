@@ -1,3 +1,19 @@
+
+::: {.content-visible when-profile="deutsch"}
+
+## Packlist
+
+- Schwimmkleidung 
+- Sportkleidung
+- Barcelona Partyoutfit (siehe [Donnerstag](/program/days/thursday))
+- Disco Outfit (siehe [Freitag](/program/days/friday))
+- Schickes Outfit (siehe [Samstag](/program/days/saturday))
+
+:::
+
+
+::: {.content-visible when-profile="english"}
+
 ## Packing list
 
 - [ ] Swimwear
@@ -5,3 +21,5 @@
 - [ ] Very fancy outfit
 - [ ] Theme outfit for the espit chupitos night
 - [ ] Theme outfit for dancing queen day
+
+:::
