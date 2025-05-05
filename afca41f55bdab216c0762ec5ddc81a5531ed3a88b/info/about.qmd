@@ -1,5 +1,4 @@
 ---
-title: "Important information"
 about:
     id: hero-heading
     template: jolla
@@ -13,6 +12,18 @@ about:
       - icon: calendar
         href: https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20250529T150000Z%2F20250601T090000Z&details=&location=Aulnay-la-Rivi%C3%A8re&text=Yanjik%26Aleni%20JG*inA
 ---
+
+::: {.content-visible when-profile="deutsch"}
+
+# Wichtige Infos
+
+:::
+
+::: {.content-visible when-profile="english"}
+
+# Important Information
+
+:::
 
 :::{#hero-heading .content-visible when-profile="english"}
 

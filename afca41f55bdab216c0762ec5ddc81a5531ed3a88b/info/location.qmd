@@ -1,3 +1,24 @@
+::: {.content-visible when-profile="deutsch"}
+
+## Moulin de la Rochette 🇫🇷
+
+::: {.content-block}
+```{=html}
+<iframe
+  width="300"
+  height="300"
+  frameborder="0" style="border:0"
+  referrerpolicy="no-referrer-when-downgrade"
+  src="https://www.google.com/maps/embed/v1/place?q=Aulnay-la-Rivière,+France&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+  allowfullscreen>
+</iframe>
+```
+:::
+
+:::
+
+::: {.content-visible when-profile="english"}
+
 ## Location
 
 ### Moulin de la Rochette 🇫🇷
@@ -48,4 +69,6 @@ When taking a plane or train, the last part of the journey requires a lift or a 
   allowfullscreen>
 </iframe>
 ```
+:::
+
 :::
