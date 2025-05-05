@@ -11,7 +11,7 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: ""
+        text: Home
         icon: house
       - href: program/index.qmd
         text: Program
