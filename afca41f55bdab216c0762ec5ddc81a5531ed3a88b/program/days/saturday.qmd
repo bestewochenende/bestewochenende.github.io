@@ -1,7 +1,13 @@
 ---
-title: Saturday - Le petit coq
+title: Samstag---Le Petit Coq
 date: '2025-05-31'
 image: ..\..\www\dress.png
 description: >- 
-    There won’t be much time to recover, as Saturday will roll straight into the "Le Petit Coq" theme, celebrating France not for its people but for its countryside and food. The day will be packed with more games and challenges across the property, keeping the energy high. In the evening, we’ll switch gears for a very fancy dinner, with everyone expected to dress as sharp. Take inspiration from the dresscode of the wedding but then a short version. We will be eating the famous french dish, pizza, as naturally this could not be missed in this weekend celebrating Y&A.
+    Wir sind in Frankreich und da strotzen die Menschen ja bekanntlich von Arr- ehhh Eleganz. Da passen wir uns gerne mal einen Tag lang an, also zieht euch schick an, dann sieht man euch den Kater auch nicht so an. 
 ---
+
+## Checklist
+
+- [ ] Schickes Outfit
+
+## Programm

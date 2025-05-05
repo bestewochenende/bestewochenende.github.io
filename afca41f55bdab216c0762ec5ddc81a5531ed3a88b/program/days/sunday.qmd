@@ -1,7 +1,11 @@
 ---
-title: Sunday - Recovery
+title: Sonntag---Abreise
 date: '2025-06-01'
 image: ..\..\www\hangover.png
 description: >- 
-    With hopefully leftover pizza in our belly and lots of electrolytes, Sunday we will make our way back to real life.
+    Jogginghose an, Sonnenbrille tief ins Gesicht und mit keinem mehr reden---es ist Abreisetag.
 ---
+
+## Checklist
+
+- [ ] Aspirin

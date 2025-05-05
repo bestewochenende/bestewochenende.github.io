@@ -1,15 +1,9 @@
 ::: {.content-visible when-profile="english"}
 ## Bachelor's weekend Yannick & Alena 29th of May - 1st June 2025
 
-<iframe src="https://free.timeanddate.com/countdown/i9vplstp/n16/cf100/cm0/cu4/ct0/cs0/ca0/co0/cr0/ss0/cac000/cpc000/pct/tcfff/fn3/fs100/szw448/szh189/iso2025-05-29T00:00:00" allowtransparency="true" frameborder="0" width="448" height="189"></iframe>
-
 :::
 
 ::: {.content-visible when-profile="german"}
 ## Yanjik&Aleni JG*inA
-
-### Ab geht's ...
-
-<iframe src="https://free.timeanddate.com/countdown/i9vplstp/n16/cf100/cm0/cu4/ct0/cs0/ca0/co0/cr0/ss0/cac000/cpc000/pct/tcfff/fn3/fs100/szw448/szh189/iso2025-05-29T00:00:00" allowtransparency="true" frameborder="0" width="448" height="189"></iframe>
 
 :::
