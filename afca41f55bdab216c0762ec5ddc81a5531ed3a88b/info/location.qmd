@@ -1,4 +1,3 @@
-::: {.content-visible when-profile="deutsch"}
 
 ### Location
 
@@ -15,60 +14,4 @@
 ```
 :::
 
-:::
 
-::: {.content-visible when-profile="english"}
-
-## Location
-
-### Moulin de la Rochette 🇫🇷
-
-::: {.content-block}
-```{=html}
-<iframe
-  width="300"
-  height="300"
-  frameborder="0" style="border:0"
-  referrerpolicy="no-referrer-when-downgrade"
-  src="https://www.google.com/maps/embed/v1/place?q=Aulnay-la-Rivière,+France&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
-  allowfullscreen>
-</iframe>
-```
-:::
-
-## How to get there
-
-### By Car 🚗
-The easiest option is to go by car from Düsseldorf. There is sufficient parking on the property.
-
-::: {.content-block}
-```{=html}
-<iframe
-  width="300"
-  height="300"
-  frameborder="0" style="border:0"
-  referrerpolicy="no-referrer-when-downgrade"
-  src="https://www.google.com/maps/embed/v1/directions?origin=Frida,+Bilker+Allee,+Düsseldorf-District+3,+Germany&destination=Aulnay-la-Rivière,+France&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
-  allowfullscreen>
-</iframe>
-```
-:::
-
-### By Plane or Train ✈️ 🚄
-
-When taking a plane or train, the last part of the journey requires a lift or a rental car. Those traveling by car will pass both Paris Charles de Gaulle Airport (CDG) and Paris Orly Airport (ORY). Please coordinate a pick-up amongst each other.
-
-::: {.content-block}
-```{=html}
-<iframe
-  width="300"
-  height="300"
-  frameborder="0" style="border:0"
-  referrerpolicy="no-referrer-when-downgrade"
-  src="https://www.google.com/maps/embed/v1/search?q=airport+near+Paris,+France&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
-  allowfullscreen>
-</iframe>
-```
-:::
-
-:::

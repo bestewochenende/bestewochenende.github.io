@@ -1,4 +1,3 @@
-::: {.content-visible when-profile="deutsch"}
 
 ## Packliste
 
@@ -8,17 +7,3 @@
 - [ ] Disco Outfit (siehe [Freitag](/program/days/friday.qmd))
 - [ ] Schickes Outfit (siehe [Samstag](/program/days/saturday.qmd))
 
-:::
-
-
-::: {.content-visible when-profile="english"}
-
-## Packing list
-
-- [ ] Swimwear
-- [ ] Exercise clothes
-- [ ] Very fancy outfit
-- [ ] Theme outfit for the espit chupitos night
-- [ ] Theme outfit for dancing queen day
-
-:::

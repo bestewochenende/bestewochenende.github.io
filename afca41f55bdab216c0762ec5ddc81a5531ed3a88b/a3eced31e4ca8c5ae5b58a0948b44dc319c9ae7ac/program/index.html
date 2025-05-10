@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.6.42">
@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>packing</title>
+<title>Program – Yanjik&amp;Aleni JG*inA</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,11 +24,14 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -37,13 +40,13 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-79108a0fc1995748cbd19a5b0e3e3e7c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-969d91e3817c644890146286e3f58a87.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
+  "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
+  "panel-placement": "end",
+  "type": "overlay",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -52,51 +55,261 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "Keine Treffer",
+    "search-matching-documents-text": "Treffer",
+    "search-copy-link-title": "Link in die Suche kopieren",
+    "search-hide-matches-text": "Zusätzliche Treffer verbergen",
+    "search-more-match-text": "weitere Treffer in diesem Dokument",
+    "search-more-matches-text": "weitere Treffer in diesem Dokument",
+    "search-clear-button-title": "Zurücksetzen",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Abbrechen",
+    "search-submit-button-title": "Abschicken",
+    "search-label": "Suchen"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+<script>
+window.addEventListener('load', () => {history.replaceState(null, null, "/");});
+</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
-<body class="fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Yanjik&amp;Aleni JG*inA</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Suchen"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navigation umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> <i class="bi bi-house" role="img">
+</i> 
+<span class="menu-text">Startseite</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../program/index.html" aria-current="page"> 
+<span class="menu-text">Programm</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../info/about.html"> 
+<span class="menu-text">Informationen</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Program</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
 
 
 
 
-<section id="packliste" class="level2">
-<h2 class="anchored" data-anchor-id="packliste">Packliste</h2>
-<ul class="task-list">
-<li><label><input type="checkbox">Schwimmkleidung</label></li>
-<li><label><input type="checkbox">Sportkleidung</label></li>
-<li><label><input type="checkbox">Barcelona Partyoutfit (siehe <a href="../program/days/thursday.html">Donnerstag</a>)</label></li>
-<li><label><input type="checkbox">Disco Outfit (siehe <a href="../program/days/friday.html">Freitag</a>)</label></li>
-<li><label><input type="checkbox">Schickes Outfit (siehe <a href="../program/days/saturday.html">Samstag</a>)</label></li>
-</ul>
 
 
-</section>
-
-</main> <!-- /main -->
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1748469600000" data-listing-file-modified-sort="1746864101888" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="10">
+<div class="thumbnail">
+<p><a href="../program/days/thursday.html" class="no-external"></a></p><a href="../program/days/thursday.html" class="no-external">
+<p><img loading="lazy" src="../program/days/../../www/grill.png" class="thumbnail-image"></p>
+</a><p><a href="../program/days/thursday.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../program/days/thursday.html" class="no-external">Donnerstag—Espit Chupitos</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../program/days/thursday.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../program/days/thursday.html" class="no-external">Wer den <span>Laden</span> in Barcelona kennt, hat jetzt Chlor Geruch in der Nase: einmal ganz tief einatmen—herrlich! Also, schmeißt euch in euer bestes Barcelona Partyoutfit und ab geht’s.</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../program/days/thursday.html" class="no-external">
+<div class="listing-date">
+29.05.2025
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1748556000000" data-listing-file-modified-sort="1746864101888" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
+<div class="thumbnail">
+<p><a href="../program/days/friday.html" class="no-external"></a></p><a href="../program/days/friday.html" class="no-external">
+<p><img loading="lazy" src="../program/days/../../www/disco.jpg" class="thumbnail-image"></p>
+</a><p><a href="../program/days/friday.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../program/days/friday.html" class="no-external">Freitag—Dancing Queens</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../program/days/friday.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../program/days/friday.html" class="no-external">Der Klassiker: ABBA, 70s, Disco. Das sollte genug Inspiration für Outfits sein und endlich eine Gelegenheit Yannick in Schlaghose zu sehen—lieb’s :).</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../program/days/friday.html" class="no-external">
+<div class="listing-date">
+30.05.2025
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1748642400000" data-listing-file-modified-sort="1746864101888" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
+<div class="thumbnail">
+<p><a href="../program/days/saturday.html" class="no-external"></a></p><a href="../program/days/saturday.html" class="no-external">
+<p><img loading="lazy" src="../program/days/../../www/dress.png" class="thumbnail-image"></p>
+</a><p><a href="../program/days/saturday.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../program/days/saturday.html" class="no-external">Samstag—Le Petit Coq</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../program/days/saturday.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../program/days/saturday.html" class="no-external">Wir sind in Frankreich und da strotzen die Menschen ja bekanntlich von Arr- ehhh Eleganz. Da passen wir uns gerne mal einen Tag lang an, also zieht euch schick an, dann sieht man euch den Kater auch nicht so an.</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../program/days/saturday.html" class="no-external">
+<div class="listing-date">
+31.05.2025
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1748728800000" data-listing-file-modified-sort="1746864101888" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
+<div class="thumbnail">
+<p><a href="../program/days/sunday.html" class="no-external"></a></p><a href="../program/days/sunday.html" class="no-external">
+<p><img loading="lazy" src="../program/days/../../www/hangover.png" class="thumbnail-image"></p>
+</a><p><a href="../program/days/sunday.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../program/days/sunday.html" class="no-external">Sonntag—Abreise</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../program/days/sunday.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../program/days/sunday.html" class="no-external">Jogginghose an, Sonnenbrille tief ins Gesicht und mit keinem mehr reden—es ist Abreisetag.</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../program/days/sunday.html" class="no-external">
+<div class="listing-date">
+01.06.2025
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+Keine Treffer
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -140,12 +353,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // flash "checked"
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
+    button.setAttribute("title", "Kopiert");
     let tooltip;
     if (window.bootstrap) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
+      button.setAttribute("data-bs-title", "Kopiert");
       tooltip = new bootstrap.Tooltip(button, 
         { trigger: "manual", 
           customClass: "code-copy-button-tooltip",
@@ -515,6 +728,19 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2025, Patrick Altmeyer &amp; Daniëlle Kotter</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Bestewochenen.de</p>
+</div>
+  </div>
+</footer>
 
 
 

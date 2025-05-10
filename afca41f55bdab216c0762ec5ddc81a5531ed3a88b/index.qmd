@@ -13,18 +13,12 @@ listing:
     feed: false
 ---
 
-::: {.content-block}
-
-{{< include welcome.qmd >}}
-
-:::
 
 {{< include hero.qmd >}}
 
 
 ::: {.content-block}
 ::: {.listing-block}
-
 
 ### Programm
 

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.39">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -34,7 +34,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-79108a0fc1995748cbd19a5b0e3e3e7c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -65,8 +65,10 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="countdown.js"></script>
 
 
+<link rel="stylesheet" href="countdown.css">
 </head>
 
 <body class="fullcontent">
@@ -195,9 +197,28 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-<section id="years-later" class="level1 hero-banner-text">
-<h1>10 years later … 👫🏼</h1>
-<p>We finally get to celebrate these alcoholics.</p>
+<section id="na-endlich" class="level1 hero-banner-text">
+<h1>Na endlich … 👫🏼</h1>
+<section id="bald-kanns-losgehen." class="level4">
+<h4 class="anchored" data-anchor-id="bald-kanns-losgehen.">Bald kann’s losgehen.</h4>
+<div id="my-countdown">
+
+</div>
+<script>
+  // This script will execute when the document loads
+  document.addEventListener('DOMContentLoaded', function() {
+    // Set your target date (format: YYYY-MM-DD HH:MM:SS)
+const targetDate = "2025-05-29 11:00:00";
+    
+    // Initialize the countdown
+    if (window.initializeCountdown) {
+      window.initializeCountdown("my-countdown", targetDate);
+    }
+  });
+</script>
+<p>Nur ein paar Dinge vorab:</p>
+<p><a href="./form.html" class="btn btn-outline-primary" role="button" data-toggle="tooltip" title="Wir brauchen ein paar Infos von euch.">Fragebogen</a> <a href="./info/about.html" class="btn btn-outline-primary" role="button" data-toggle="tooltip" title="Wichtige Infos.">Infos</a></p>
+</section>
 </section>
 </div>
 </div>

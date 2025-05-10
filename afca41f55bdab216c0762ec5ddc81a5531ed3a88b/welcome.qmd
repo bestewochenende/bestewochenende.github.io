@@ -1,8 +1,0 @@
-::: {.content-visible when-profile="english"}
-## Bachelor's weekend Yannick & Alena 29th of May - 1st June 2025
-
-:::
-
-::: {.content-visible when-profile="german"}
-
-:::

@@ -14,14 +14,8 @@ about:
         href: https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20250529T150000Z%2F20250601T090000Z&details=&location=Aulnay-la-Rivi%C3%A8re&text=Yanjik%26Aleni%20JG*inA
 ---
 
-:::{#hero-heading .content-visible when-profile="english"}
 
-**29th of May - 1st June 2025** <br>
-Check in: 17:00 <br>
-Check out: 12:00 <br>
-:::
-
-:::{#hero-heading .content-visible when-profile="german"}
+:::{#hero-heading} 
 
 **29 Mai – 1 Juni 2025** <br>
 Check-in: 17:00 Uhr <br>
