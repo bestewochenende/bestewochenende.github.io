@@ -18,10 +18,8 @@ website:
       - href: info/about.qmd
         text: Informationen
   page-footer:
-    right: "Bestewochenen.de"
+    right: "bestewochenen.de"
     left: "© 2025, Patrick Altmeyer & Daniëlle Kotter"
-
-lang: de
 
 format:
   html:
