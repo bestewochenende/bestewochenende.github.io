@@ -2,7 +2,7 @@
 title: "Wichtige Infos"
 about:
     id: hero-heading
-    template: jolla
+    template: solana
     image: ../www/house.jpg
     image-shape: round
     links:
@@ -29,14 +29,13 @@ Check-out: 12:00 Uhr <br>
 :::
 
 
-::: {.content-block}
+::: {#hero-heading}
 
 {{< include packing.qmd >}}
 
 :::
 
-
-::: {.content-block}
+::: {#hero-heading}
 
 {{< include location.qmd >}}
 

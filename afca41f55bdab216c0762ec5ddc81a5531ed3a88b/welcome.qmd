@@ -4,6 +4,5 @@
 :::
 
 ::: {.content-visible when-profile="german"}
-## Yanjik&Aleni JG*inA
 
 :::

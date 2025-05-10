@@ -11,10 +11,10 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: Home
+        text: Startseite
         icon: house
       - href: program/index.qmd
-        text: Program
+        text: Programm
       - href: info/about.qmd
         text: Informationen
     right:

@@ -2,11 +2,11 @@
 
 ## Packliste
 
-- Schwimmkleidung 
-- Sportkleidung
-- Barcelona Partyoutfit (siehe [Donnerstag](/program/days/thursday))
-- Disco Outfit (siehe [Freitag](/program/days/friday))
-- Schickes Outfit (siehe [Samstag](/program/days/saturday))
+- [ ] Schwimmkleidung 
+- [ ] Sportkleidung
+- [ ] Barcelona Partyoutfit (siehe [Donnerstag](/program/days/thursday.qmd))
+- [ ] Disco Outfit (siehe [Freitag](/program/days/friday.qmd))
+- [ ] Schickes Outfit (siehe [Samstag](/program/days/saturday.qmd))
 
 :::
 
