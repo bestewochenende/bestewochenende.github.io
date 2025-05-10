@@ -1,7 +1,7 @@
 ---
 title: Sonntag---Abreise
 date: '2025-06-01'
-image: ..\..\www\hangover.png
+image: /www/hangover.png
 description: >- 
     Jogginghose an, Sonnenbrille tief ins Gesicht und mit keinem mehr reden---es ist Abreisetag.
 ---
