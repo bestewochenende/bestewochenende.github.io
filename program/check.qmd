@@ -1,0 +1,18 @@
+## Checkliste
+
+##### Donnerstag
+
+{{< include days/check/_thu.qmd >}}
+
+##### Freitag
+
+{{< include days/check/_fri.qmd >}}
+
+##### Samstag
+
+{{< include days/check/_sat.qmd >}}
+
+##### Sonntag
+
+{{< include days/check/_sun.qmd >}}
+

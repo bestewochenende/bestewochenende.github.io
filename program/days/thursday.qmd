@@ -1,0 +1,13 @@
+---
+title: Donnerstag---Espit Chupitos
+date: '2025-05-29'
+image: /www/grill.png
+description: >- 
+    Wer den [Laden](https://www.espitchupitos.com/en/) in Barcelona kennt, hat jetzt Chlor Geruch in der Nase: einmal ganz tief einatmen---herrlich! Also, schmeißt euch in euer bestes Barcelona Partyoutfit und ab geht's.
+---
+
+## Checklist
+
+{{< include check/_thu.qmd >}}
+
+## Programm

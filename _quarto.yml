@@ -1,0 +1,36 @@
+project:
+  type: website
+  output-dir: _site
+  execute-dir: project
+  resources:
+    - "/www/"
+    - "/CNAME"
+
+website:
+  title: "YGA"
+  navbar:
+    search: true
+    left:
+      - href: index.qmd
+        text: Startseite
+        icon: house
+      - text: Info
+        menu:
+          - text: Overview
+            href: program/info.qmd
+          - text: Checkliste
+            href: program/check.qmd
+          - text: Programm Details
+            href: program/program.qmd
+
+  page-footer:
+    right: "bestewochenen.de"
+    left: "© 2025, Patrick Altmeyer & Daniëlle Kotter"
+
+format:
+  html:
+    theme:
+      - theme-light.scss
+      - brand
+    toc: true
+
