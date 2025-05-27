@@ -1,6 +1,0 @@
----
-title: "Program"
-listing:
-  contents: days
-  sort: "date"
----
