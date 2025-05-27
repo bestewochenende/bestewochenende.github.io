@@ -1,0 +1,18 @@
+## Programm
+
+##### Donnerstag
+
+{{< include days/program/_thu.qmd >}}
+
+##### Freitag
+
+{{< include days/program/_fri.qmd >}}
+
+##### Samstag
+
+{{< include days/program/_sat.qmd >}}
+
+##### Sonntag
+
+{{< include days/program/_sun.qmd >}}
+

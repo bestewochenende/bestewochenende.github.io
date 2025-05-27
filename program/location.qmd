@@ -1,0 +1,17 @@
+
+### Location
+
+::: {.content-block}
+```{=html}
+<iframe
+  width="100%"
+  height="300"
+  frameborder="0" style="border:0"
+  referrerpolicy="no-referrer-when-downgrade"
+  src="https://www.google.com/maps/embed/v1/place?q=Aulnay-la-Rivière,+France&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+  allowfullscreen>
+</iframe>
+```
+:::
+
+
