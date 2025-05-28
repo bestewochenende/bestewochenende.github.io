@@ -29,7 +29,7 @@ website:
   announcement: 
     icon: info-circle
     dismissable: true
-    content: "**Neues** - Wir haben ein paar neue Details fuer euch: [Programm](/program/program.qmd), [Bride vs. Groom](/program/game.qmd)"
+    content: "**Neues** - Wir haben ein paar neue Details fuer euch: [Programm](/program/program.qmd), [Gruppen](/groups/groups.qmd), [Bride vs. Groom](/program/game.qmd)"
     type: primary
     position: below-navbar
 
