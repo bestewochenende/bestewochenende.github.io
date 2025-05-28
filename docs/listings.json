@@ -1,6 +1,6 @@
 [
   {
-    "listing": "/program/index.html",
+    "listing": "/index.html",
     "items": [
       "/program/days/thursday.html",
       "/program/days/friday.html",
@@ -9,7 +9,7 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/program/index.html",
     "items": [
       "/program/days/thursday.html",
       "/program/days/friday.html",

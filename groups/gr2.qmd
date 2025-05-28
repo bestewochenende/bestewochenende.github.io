@@ -1,0 +1,6 @@
+[Gruppe 2](/groups/gr2.qmd){.group2}
+
+- Konni
+- Jules
+- Jojo
+- Rapha

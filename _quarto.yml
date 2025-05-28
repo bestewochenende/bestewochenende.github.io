@@ -22,6 +22,16 @@ website:
             href: program/check.qmd
           - text: Programm Details
             href: program/program.qmd
+          - text: Gruppen
+            href: groups/groups.qmd
+      - text: 👰🏻‍♀️ Bride vs. Groom 🤵🏼‍♂️
+        href: program/game.qmd
+  announcement: 
+    icon: info-circle
+    dismissable: true
+    content: "**Neues** - Wir haben ein paar neue Details fuer euch: [Programm](/program/program.qmd), [Bride vs. Groom](/program/game.qmd)"
+    type: primary
+    position: below-navbar
 
   page-footer:
     right: "bestewochenen.de"
@@ -33,4 +43,6 @@ format:
       - theme-light.scss
       - brand
     toc: true
-
+    include-in-header:
+      - text: |
+          <script src="/groups.js"></script> 

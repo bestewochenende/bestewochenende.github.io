@@ -1,0 +1,13 @@
+*Motto*: Dancing Queens
+
+#### Agenda
+
+- **Bride vs. Groom**: 🔴🟢 (2. Hauptspiel)
+- **Bride vs. Groom**: 🍺 (3. Hauptspiel)
+
+#### Essen
+
+- Morgens: [Gruppe 3](/groups/gr3.qmd){.group3}
+- Mittags: Tosties/Baguettes [Gruppe 1](/groups/gr1.qmd){.group1}
+- Abends: Pasta [Group 4](/groups/gr4.qmd){.group4}
+- Snacks: [Group 2](/groups/gr2.qmd){.group2}

@@ -1,0 +1,6 @@
+[Gruppe 1](/groups/gr1.qmd){.group1}
+
+- Clara
+- Katja
+- Marie
+- Stella

@@ -1,0 +1,12 @@
+*Motto*: Le Petit Coq
+
+#### Agenda
+
+- **Bride vs. Groom**: 🦌 (4. Hauptspiel)
+
+#### Essen
+
+- Morgens: [Gruppe 1](/groups/gr1.qmd){.group1}
+- Mittags: Tosties/Baguettes [Gruppe 2](/groups/gr2.qmd){.group2}
+- Abends: 🍕 [Gruppe 3](/groups/gr3.qmd){.group3} 
+- Snacks: [Gruppe 4](/groups/gr4.qmd){.group4} 

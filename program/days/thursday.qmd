@@ -11,3 +11,5 @@ description: >-
 {{< include check/_thu.qmd >}}
 
 ## Programm
+
+{{< include program/_thu.qmd >}}

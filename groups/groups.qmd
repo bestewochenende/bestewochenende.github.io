@@ -1,0 +1,14 @@
+---
+title: Gruppen
+---
+
+Um uns allen und vor allem unseren zwei Ehrengaesten das Leben so einfach wie moeglich zu machen, haben wir kleine Gruppen zusammengestellt, die fuer verschiedene Mahlzeiten (inkl. Abwasch) verantwortlich sind. Wann eure Gruppe dran ist, findet ihr auf der [Programmuebersicht](/program/program.qmd).
+
+{{< include gr1.qmd >}}
+
+{{< include gr2.qmd >}}
+
+{{< include gr3.qmd >}}
+
+{{< include gr4.qmd >}}
+

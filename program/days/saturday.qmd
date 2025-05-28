@@ -11,3 +11,5 @@ description: >-
 {{< include check/_sat.qmd >}}
 
 ## Programm
+
+{{< include program/_sat.qmd >}}
