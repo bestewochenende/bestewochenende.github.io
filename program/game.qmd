@@ -19,22 +19,25 @@ df = CSV.read("game.csv", DataFrame)
 
 # Images
 img_y = load("www/y.png")
-img_a = load("www/a.png")
+img_p = load("www/p.png")
+img_k = load("www/k.png")
+img_d = load("www/d.png")
+img_u = load("www/u.png")
 
 # Cummulative sum
 df = @chain df begin
-  @pivot_longer(df, -game)
+  @pivot_longer(df, -Tag)
   @group_by(variable)
   @mutate(value = cumsum(value))
   @ungroup()
 end
 
 # Plot
-plt = ggplot(df, @aes(x = game, y = value, colour = variable)) +
+plt = ggplot(df, @aes(x = Tag, y = value, colour = variable)) +
   geom_line() +
-  geom_point(@aes(shape = variable), size=50) +
-  scale_shape(name="Team", values=[img_y, img_a]) +
-  labs(x = "Spiel", y = "Punkte") +
+  geom_point(@aes(shape = variable), size=25) +
+  scale_shape(name="Spieler", values=[img_d, img_k, img_p, img_u, img_y]) +
+  labs(x = "Tag", y = "Olympisches Kotzen (o. ä.)") +
   lims(x = [0,5]) +
   theme_minimal()
 ggsave(plt, "www/score.png", scale=3)
